@@ -21,7 +21,7 @@ public class computerguess {
                   System.out.println(Guess);
               } else if (answer.equals("lower")) {
                   max = Guess;
-                  Guess = (int) (Math.random() * (max - min) + 1);
+                  Guess = (int) (Math.random() * (max - min) + min + 1);
                   System.out.println(Guess);
               }
           }
